@@ -59,7 +59,7 @@ Menampilkan formulir pengisian KRS.
 
 Modal pop-up kustom yang muncul setelah menekan tombol "Konfirmasi Pilihan KRS", tanpa pesan "This page says" dari browser.
 
-![Modal Pop-up Konfirmasi Sukses](UI/D937897F-6095-438E-ADE3-EADB7A41EA2D.png)
+![Modal Pop-up Konfirmasi Sukses](https://github.com/harisnurpazri/taskTwo_web1-sistem-akademik-sederhana-/blob/main/UI/%7B8946FC3E-2709-4C90-8887-5F966321F847%7D.png)
 
 ***
 
