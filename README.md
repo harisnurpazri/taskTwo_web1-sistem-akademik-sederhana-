@@ -15,7 +15,7 @@ Website ini dikembangkan dalam satu file (`index.html`) dan telah memenuhi semua
 | Kriteria | Implementasi Dalam Kode | Status |
 | :--- | :--- | :--- |
 | **Satu File HTML** | Semua kode (HTML, CSS, JS) berada dalam `index.html`. | **✅** |
-| **Judul Halaman** | `<title>SIAKD | Dashboard </title>` | **✅** |
+| **Judul Halaman** | SIAKAD | Dashboard | **✅** |
 | **Minimal 4 Teks** | Mengandung 1 **Heading** utama dan minimal 3 **Paragraf** informatif. | **✅** |
 | **1 Elemen Desain** | Menggunakan tema **Dark Mode** (`background-color: #1c2128`) dan skema warna hijau (`#2e8b57`). | **✅** |
 | **1 Tombol Interaksi** | Tombol **"Konfirmasi Pilihan KRS"** (`confirmKRS()`). | **✅** |
