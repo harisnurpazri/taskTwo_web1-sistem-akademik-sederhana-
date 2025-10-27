@@ -67,7 +67,7 @@ Modal pop-up kustom yang muncul setelah menekan tombol "Konfirmasi Pilihan KRS",
 
 Menampilkan data jadwal dalam format tabel.
 
-![Tampilan Menu Jadwal Kuliah](UI/8946FC3E-2709-4C90-B887-5F966321F8F1.png)
+![Tampilan Menu Jadwal Kuliah](https://github.com/harisnurpazri/taskTwo_web1-sistem-akademik-sederhana-/blob/main/UI/%7B92B8343A-E934-4592-9E73-9541003EF98F%7D.png)
 
 ---
 
