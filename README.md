@@ -51,7 +51,7 @@ Menampilkan halaman utama dengan informasi profil.
 
 Menampilkan formulir pengisian KRS.
 
-![Tampilan Menu Isi KRS](UI/5B0333FD-F142-4A7E-86D1-29FCB35A7970A.png)
+![Tampilan Menu Isi KRS](https://github.com/harisnurpazri/taskTwo_web1-sistem-akademik-sederhana-/blob/main/UI/%7B8946FC3E-2709-4C90-8887-5F966321F847%7D.png)
 
 ***
 
@@ -59,7 +59,7 @@ Menampilkan formulir pengisian KRS.
 
 Modal pop-up kustom yang muncul setelah menekan tombol "Konfirmasi Pilihan KRS", tanpa pesan "This page says" dari browser.
 
-![Modal Pop-up Konfirmasi Sukses](https://github.com/harisnurpazri/taskTwo_web1-sistem-akademik-sederhana-/blob/main/UI/%7B8946FC3E-2709-4C90-8887-5F966321F847%7D.png)
+![Modal Pop-up Konfirmasi Sukses]()
 
 ***
 
