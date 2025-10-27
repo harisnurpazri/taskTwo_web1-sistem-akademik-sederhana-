@@ -43,7 +43,7 @@ Berikut adalah tampilan antarmuka dan hasil dari interaksi JavaScript:
 
 Menampilkan halaman utama dengan informasi profil.
 
-![Tampilan Menu Dashboard](https://github.com/harisnurpazri/taskTwo_web1-sistem-akademik-sederhana-/blob/main/UI/%7B8946FC3E-2709-4C90-8887-5F966321F847%7D.png)
+![Tampilan Menu Dashboard](https://github.com/harisnurpazri/taskTwo_web1-sistem-akademik-sederhana-/blob/main/UI/%7B58D335FD-F142-4A7E-86D1-29FCB5A7970A%7D.png)
 
 ***
 
