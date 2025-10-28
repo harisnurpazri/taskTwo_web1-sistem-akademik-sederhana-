@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIAKAD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+
+    <div id="custom-modal" class="custom-modal">
+        <div class="modal-content">
+            <h3><i class="fas fa-check-circle"></i> Notifikasi Sukses!</h3>
+            <p id="modal-message" style="color: #e4e6eb; font-size: 1.1em; margin-bottom: 25px;">KRS Berhasil Dikonfirmasi!</p>
+            <button onclick="closeCustomModal()" style="background-color: #3498db; color: white; padding: 10px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em;">OK</button>
+        </div>
+    </div>
+    
+    <div class="sidebar">
+        <div class="logo-area">
+            <h2><i class="fas fa-desktop"></i> SIAKAD </h2>
+        </div>
+        <ul>
+            <li><a id="nav-dashboard" onclick="showContent('dashboard')" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+            <li><a id="nav-krs" onclick="showContent('krs')"><i class="fas fa-file-signature"></i> Isi KRS </a></li>
+            <li><a id="nav-jadwal" onclick="showContent('jadwal')"><i class="fas fa-calendar-alt"></i> Jadwal Kuliah</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1 id="main-title"><i class="fas fa-tachometer-alt"></i> Dashboard </h1>
+        </div>
+        
+        <div id="dashboard" class="content-section active">
+            <h3 id="h3-dashboard">Informasi Profile Mahasiswa</h3>
+            
+            <div class="profile-card">
+                <div class="profile-photo">
+                </div>
+                <div class="profile-details">
+                    <h3>Haris Nurpazri</h3> 
+                    <p>
+                        NIM: 23552011143 | Departemen: Teknik Informatika | Semester: Ganjil 2024/2025
+                    </p>
+                    <p>
+                        Selamat datang kembali di Dashboard. Di sini Anda bisa melihat ringkasan status akademik dan informasi penting lainnya secara cepat. Pastikan data profil Anda selalu terverifikasi.
+                    </p>
+                </div>
+            </div>
+
+            <div class="data-card">
+                 <p>
+                    Area ini menampilkan statistik cepat seperti IPK (3.85) dan SKS yang telah ditempuh (72 SKS). Untuk detail lengkap, silakan kunjungi menu terkait di sidebar.
+                </p>
+            </div>
+        </div>
+
+        <div id="krs" class="content-section">
+            <h3>Pengisian Kartu Rencana Studi (KRS)</h3>
+
+            <div class="data-card">
+                <form class="krs-form">
+                    <p>
+                        Pilih mata kuliah yang ingin Anda ambil untuk semester ini. Total SKS yang diperbolehkan adalah 24 SKS.
+                    </p>
+                    <label for="mk1">Mata Kuliah Wajib 1 (4 SKS)</label>
+                    <select id="mk1">
+                        <option value="Jaringan">Keamanan Jaringan</option>
+                        <option value="BasisData">Keamanan informasi</option>
+                    </select>
+
+                    <label for="mk2">Mata Kuliah Pilihan 2 (3 SKS)</label>
+                    <select id="mk2">
+                        <option value="PPL">Pemrograman Web 1</option>
+                        <option value="Cyber">Pemrograman Mobile 2</option>
+                    </select>
+                </form>
+
+                <p style="margin-top: 25px;">
+                    Status Pengisian: <strong id="krs-status" style="color: #e74c3c;">BELUM DIKONFIRMASI</strong>
+                </p>
+
+                <button class="btn-action" onclick="confirmKRS()">
+                    <i class="fas fa-check"></i> Konfirmasi Pilihan KRS
+                </button>
+                
+                <div id="krs-output">
+                    Log Sistem: Tekan tombol di atas untuk mencatat konfirmasi KRS Anda.
+                </div>
+            </div>
+        </div>
+
+        <div id="jadwal" class="content-section">
+            <h3>Jadwal Kuliah Semester Ganjil 2024/2025</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Waktu</th>
+                        <th>Mata Kuliah</th>
+                        <th>Dosen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>08:00 - 10:30</td>
+                        <td>Pemrograman Web 1</td>
+                        <td>Ibu Nova Agustina</td>
+                    </tr>
+                    <tr>
+                        <td>Selasa</td>
+                        <td>13:00 - 15:30</td>
+                        <td>Keamanan Informasi</td>
+                        <td>Ibu Yasti Aisyah</td>
+                    </tr>
+                    <tr>
+                        <td>Rabu</td>
+                        <td>10:00 - 12:30</td>
+                        <td>Keamanan Jaringan</td>
+                        <td>Bapak Widi Linggih Jaelani</td>
+                    </tr>
+                    <tr>
+                        <td>Kamis</td>
+                        <td>10:00 - 12:30</td>
+                        <td>Pemrograman Mobile 2</td>
+                        <td>Bapak Muhammad Ikhwan Fathulloh</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
